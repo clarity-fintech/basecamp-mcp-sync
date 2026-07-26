@@ -1,0 +1,168 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Basecamp MCP Sync · MessageSync
+
+module BasecampMcpSyncMessageSync {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_message_sync_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant message_sync_001: message_sync_001_bound == true;
+  invariant message_sync_002: message_sync_002_bound == true;
+  invariant message_sync_003: message_sync_003_bound == true;
+  invariant message_sync_004: message_sync_004_bound == true;
+  invariant message_sync_005: message_sync_005_bound == true;
+  invariant message_sync_006: message_sync_006_bound == true;
+  invariant message_sync_007: message_sync_007_bound == true;
+  invariant message_sync_008: message_sync_008_bound == true;
+  invariant message_sync_009: message_sync_009_bound == true;
+  invariant message_sync_010: message_sync_010_bound == true;
+  invariant message_sync_011: message_sync_011_bound == true;
+  invariant message_sync_012: message_sync_012_bound == true;
+  invariant message_sync_013: message_sync_013_bound == true;
+  invariant message_sync_014: message_sync_014_bound == true;
+  invariant message_sync_015: message_sync_015_bound == true;
+  invariant message_sync_016: message_sync_016_bound == true;
+  invariant message_sync_017: message_sync_017_bound == true;
+  invariant message_sync_018: message_sync_018_bound == true;
+  invariant message_sync_019: message_sync_019_bound == true;
+  invariant message_sync_020: message_sync_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_001(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_002(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_003(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_004(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_005(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_006(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_007(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_008(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_009(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_010(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_011(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_012(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_013(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_014(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_015(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_016(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_017(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_018(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_019(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_message_sync_020(payload: Bytes) {
+    require payload != @0;
+    constraint message_sync_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
